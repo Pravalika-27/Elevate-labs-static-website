@@ -18,12 +18,12 @@ To deploy this website as a static site using GitHub Pages, I followed these ste
 2. **Create a New GitHub Repository**
    - Initialized a new repository on GitHub.
    - Added project files and committed changes.
-git init
-git add .
-git commit -m "adding index.html"
-git branch -M master
-git remote add origin https://github.com/Pravalika-27/Elevate-labs-static-website
-git push -u origin master
+   - git init
+   - git add index.html
+   - git commit -m "adding index.html"
+   - git branch -M master
+   - git remote add origin https://github.com/username/repo-name
+   - git push -u origin master
 
 3. **Enable GitHub Pages**
    - Navigated to repository Settings → Pages.
