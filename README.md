@@ -1,4 +1,4 @@
-# Pravalika Amgoth - DevOps Intern
+# Pravalika Amgoth - DevOps Intern at Elevate labs 
 
 Welcome to my personal website showcasing my journey as a DevOps Intern at Elevate Labs!
 
@@ -12,12 +12,18 @@ This static website serves as a platform to introduce myself and share my intern
 To deploy this website as a static site using GitHub Pages, I followed these steps:
 
 1. **Prepare the Project**
-   - Created HTML, CSS, and JavaScript files for the website.
+   - Created index.html file for my website
    - Styled with modern CSS and Google Fonts.
 
 2. **Create a New GitHub Repository**
    - Initialized a new repository on GitHub.
    - Added project files and committed changes.
+git init
+git add .
+git commit -m "adding index.html"
+git branch -M master
+git remote add origin https://github.com/Pravalika-27/Elevate-labs-static-website
+git push -u origin master
 
 3. **Enable GitHub Pages**
    - Navigated to repository Settings → Pages.
@@ -32,11 +38,10 @@ To deploy this website as a static site using GitHub Pages, I followed these ste
 
 🛠️ **Tools Used**
 - GitHub Pages: For static website hosting.
-- HTML5 & CSS3: Structure, styling, and responsiveness.
-- JavaScript: Enhances interactivity and functionality.
+- HTML & CSS: Structure, styling, and responsiveness.
 - Google Fonts: Stylish typography.
 
 📝 **Steps to Customize**
-- Modify content in HTML files for updates.
-- Update CSS for styling changes.
+- Modify content in index.html file for updates.
 - Deploy changes by committing and pushing updates to GitHub.
+- After commiting the changes refresh the page what ever changes we made that will be created.
